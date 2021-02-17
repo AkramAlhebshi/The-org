@@ -1,0 +1,187 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: azure;
+    text-align: right;
+    margin: 0;
+    line-height: 1.75;
+}
+
+ol {
+    list-style: arabic-indic;
+    direction: rtl;
+}
+
+li {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-family: 'Tajawal', sans-serif;
+    color: #222831;
+}
+
+.a {
+    border-style: none none dotted;
+    border-width: 7px;
+    width: 5%;
+    border-color: #e8e8e8;
+}
+
+
+
+/*****************************************************************navgation bar****************************************************************/
+
+
+
+.navbar-brand {
+    pointer-events: none;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #222831;
+    font-family: 'Lemonada', cursive;
+}
+
+.navbar {
+    padding: 0;
+}
+
+
+
+
+/*****************************************************************first div********************************************************************/
+
+
+.container-fluid {
+    background-color: #f05454;
+    width: 100%;
+    padding: 10px 7% 30px 7%;
+    color: azure;
+    position: relative;
+}
+
+.intro1 {
+    font-size: 6.25rem;
+    margin-bottom: 20px;
+}
+
+.intro2 {
+    font-size: 1.875rem;
+}
+
+.intro-image {
+    width: 100%;
+    margin-top: 80px;
+}
+
+
+
+/*****************************************************************other divs*******************************************************************/
+
+
+.titels {
+    font-size: 4.5rem;
+    margin-top: 30px;
+}
+
+.pragraph-2-3-4-5 {
+    font-size: 1.5rem;
+}
+
+.all {
+    text-align: center;
+    width: 450px;
+    margin:50px auto;
+}
+
+.sempels {
+    color: #30475e;
+}
+
+.sempels:hover {
+    color: #f05454;
+}
+
+
+/*****************************************************************contact us****************************************************************/
+
+
+
+.تواصل-معنا {
+    background-color: #222831;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.contact-us {
+    color: #f05454;
+}
+
+i {
+    font-size: 1.7rem;
+}
+
+.تواصل-معنا {
+    padding: 20px 0;
+    margin: 0;
+}
+
+.footer-link {
+    margin: 15px;
+    color: azure;
+    font-family: 'Courgette', cursive;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+}
+
+.facebook:hover {
+    color: #1877f2;
+}
+
+.e-mail:hover {
+    color: #f05454;
+}
+
+.instagram {
+    font-size: 27.200px;
+}
+
+.instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.twitter:hover {
+    color: #1DA1F2;
+}
+
+.phone:hover {
+    color: #a4c639;
+}
+
+.inline {
+    display: inline-block;
+    margin: 10px;
+}
+
+.copyright {
+    font-size: 0.75rem;
+    margin: 30px 0 0;
+    color: #30475e;
+}
